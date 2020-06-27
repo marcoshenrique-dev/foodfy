@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+
+  padding: 30px;
+  padding-left: 231px;
+ 
+  
+}
+
+header img {
+    
+  margin-right: 122.4px;
+}
+
+
+header div {
+
+  display: inline-block;
+
+}
+
+header div a {
+
+  text-decoration: none;
+  line-height: 19px;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #111111;
+  font-family: 'Roboto-regular', sans-serif;
+  font-weight: normal;
+  transition: 1s;
+}
+
+header div a:hover {
+
+  background-color: #d54f44;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#advisor {
+
+  display: block;
+  background-color: #FBDFDB;
+  border-radius: 30px;
+  width: 940px;
+  height: 366px;
+  margin-top: 36px;
+
+}
+
+#advisor #textBox {
+
+  margin-left: 60px;
+  margin-right: 210px;
+  margin-top: 117px;
+}
+
+#advisor #textBox h2 {
+
+  font-size: 32px;
+    font-family: 'Roboto-bold' ,sans-serif;
+}
+
+#advisor #textBox p {
+
+  width: 316px;
+  height: 84px;
+  opacity: 70%;
+  size: 18px;
+  margin-top: 10px;
+  font-family: 'Roboto-regular', sans-serif;
+}
+
+
+#advisor img {
+
+  float: right;
+  margin-top: 66px;
+  width: 216px;
+  height: 300px;
+  
+  
+}
+
+.cards {
+
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 20px;
+  margin-right: 320px;
+}
+
+.card {
+
+  width: 300px;
+  height: 300px;
+}
+
+.card img {
+
+  width: 300px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.card .content {
+
+  margin-top: 20px;
+}
+
+.card .content h3 {
+
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 18px;
+}
+
+.card .content p {
+
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
+
+#acess {
+
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 240px;
+  margin-top: 30px;
+  font-family: 'Roboto-bold', sans-serif;
+  font-size: 24px;
+  color: #111111;
+}
+
+footer {
+
+  background-color: #EEEEEE;
+  text-align: center;
+  padding : 30px;
+}
+
+footer p {
+
+  color: #999999;
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 14px;
+}
+
+.sessao {
+
+  margin-left: 230px;
+  margin-top: 50px;
+}
+
+.sessao .line {
+
+  margin-bottom: 0px;
+  
+}
+
+.sessao .line h3 {
+
+font-family: 'Roboto-bold' ,sans-serif;
+margin-bottom: 30px;
+font-size: 24px;
+}
+
+.sessao .line p {
+
+  font-family: 'Roboto-regular' ,sans-serif;
+  color: #444444;
+  font-size: 18px;
+  width: 940px;
+  height: 280px;
+  
+  }
+
+  .sessao .line h5 {
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto-regular' ,sans-serif;
+  }
+
+  .activate {
+
+    background-color: #d54f44;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 1s;
+
+  }
+
+  .activate:hover{
+
+    text-decoration: none;
+    line-height: 19px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #111111;
+    background-color: transparent;
+    padding: 0;
+    font-family: 'Roboto-regular', sans-serif;
+    font-weight: normal;
+   
+
+  }
+
+  .space {
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #modal-overlay {
+
+    background-color: rgba(0, 0, 0, 0.657);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  #box {
+
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 16px;
+      width: 600px;
+      height: 350px;
+      text-align: center;
+      
+
+  }
+
+  #box img {
+
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 0px;
+    
+  }
+
+  #box h3 {
+
+    font-family: 'Roboto-regular', sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 24px;
+
+  }
+
+  #box p {
+
+    font-family: 'Roboto-regular', sans-serif;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #777777;
+    font-size: 18px;
+
+  }
+
+ #box #close {
+   
+  font-family: 'Roboto-regular', sans-serif;
+  font-weight: normal;
+ 
+  color: #999999;
+  font-size: 16px;
+  margin-top : 50px;
+  cursor: pointer;
+ 
+  }
+
+  #modal-overlay.active {
+
+    opacity: 1;
+    visibility: visible;
+  }
