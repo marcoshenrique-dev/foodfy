@@ -13,3 +13,7 @@ Mockup
 Vídeo do projeto finalizado : 
 
 ![Peek 2020-06-27 11-19](https://user-images.githubusercontent.com/51785898/85924358-2ed45b80-b868-11ea-958f-f009323023ed.gif)
+
+Meu linkedin : 
+
+<a href="https://www.linkedin.com/in/marcos-henrique-1692681a0/">Link</a>
